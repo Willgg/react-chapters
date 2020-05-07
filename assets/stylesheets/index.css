@@ -1,0 +1,37 @@
+body {
+  font-size: 20px;
+}
+
+#root {
+  display: flex;
+}
+
+.chapters-list {
+  padding: 20px;
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+
+.chapters-list .active {
+  font-weight: bold;
+}
+
+.chapters-list .active:before {
+  content: "»";
+}
+
+.question {
+  padding: 60px;
+}
+
+.answer {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.selected {
+  border: 1px solid rgba(40, 165, 255, 1);
+}
