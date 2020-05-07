@@ -1,7 +1,7 @@
 import React from "react";
 
 const Chapter = props => {
-  handleClick = event => {
+  const handleClick = event => {
     props.selectChapter(props.chapter);
   };
 

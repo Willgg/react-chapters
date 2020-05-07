@@ -1,7 +1,7 @@
 import React from "react";
 
 const Answer = props => {
-  handleClick = event => {
+  const handleClick = event => {
     props.selectAnswer(props.answer);
   };
 

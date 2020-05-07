@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import chapters from "./data";
+import chapters from "../data";
 
-import ChaptersList from "./components/chapters_list";
-import Question from "./components/question";
+import ChaptersList from "./chapters_list";
+import Question from "./question";
 
 class App extends Component {
   constructor(props) {
